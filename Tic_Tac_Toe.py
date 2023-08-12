@@ -5,7 +5,7 @@ def print_board(game):
     '''
     Printing Board Function with the input of Game Board List of Lists
     '''
-    print("\n"*20)
+    print("\n"*2)
     print('---------------------------------------------------\n')
     for row_cells in game:
         for square_cell in row_cells:
